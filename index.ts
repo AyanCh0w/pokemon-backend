@@ -15,7 +15,7 @@ async function pokeMaker(pokemonType){
         messages: [
           {
             role: "system",
-            content: "You are a helpful assistant designed to output JSON. Include, name (string), leve (string) Basic or Mega , healthPoints (int), attackName1 (string), attackDamage1 (int), attackName2 (string), attackDamage2 (int), description (1 sentence string), backstory (short 2 sentences string), imageGen (detailed description to generate image string) accentColor (list of rgb values), textColor (list of rgb values), type (string) either bug dark dragon electric fairy fighting fire flying ghost grass ground ice normal poison psychic rock steel water",
+            content: "You are a helpful assistant designed to output JSON. Include, name (string), level (string) Basic or Mega , healthPoints (int), attackName1 (string), attackDamage1 (int), attackName2 (string), attackDamage2 (int), description (1 sentence string), backstory (short 2 sentences string), imageGen (detailed description to generate image string) accentColor (list of rgb values), textColor (list of rgb values), type (string) either bug dark dragon electric fairy fighting fire flying ghost grass ground ice normal poison psychic rock steel water",
           },
           { role: "user", content: "Generate a uniqe pokemon card themed from "+ pokemonType },
         ],
